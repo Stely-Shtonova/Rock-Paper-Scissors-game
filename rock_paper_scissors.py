@@ -48,11 +48,9 @@ while True:
         computers_wins += 1
     # prompting the user to play again
     print()
-    go_again = False
     while True:
         answer = input(P + 'Would you like to play again? Write either [yes] or [no] below:\n')
         if answer.lower() == 'yes':
-            go_again = True
             break
         elif answer.lower() == 'no':
             if your_wins > computers_wins:
